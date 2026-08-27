@@ -17,8 +17,8 @@ const menuData = {
         ],
         "DORUČAK (DO 14h)": [
             { name: "Tradicija mix", weight: "za 4 osobe", price: 1850, image: "Meni/DORUCAK/tradicijamix.png", desc: "" },
-            { name: "Pohovane punjene paprike", weight: "", price: 730, image: "Meni/DORUCAK/pp1.png", desc: "" },
-            { name: "Paprika na kajmaku", weight: "", price: 650, image: "Meni/DORUCAK/pk1.png", desc: "" },
+            { name: "Pohovane punjene paprike", weight: "", price: 730, image: "Meni/Njprodavanije/1.png", desc: "" },
+            { name: "Paprika na kajmaku", weight: "", price: 650, image: "Meni/Njprodavanije/1.png", desc: "" },
             { name: "Pohovane paprike", weight: "", price: 650, image: "Meni/DORUCAK/pohovanepaprike.png", desc: "" },
             { name: "Index sendvič", weight: "", price: 650, image: "Meni/DORUCAK/indexsendvic.png", desc: "" },
             { name: "Tradicija doručak", weight: "", price: 600, image: "Meni/DORUCAK/tradicijadorucak.png", desc: "" },
