@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tradicija | Premium Restoran</title>
+    <meta name="description" content="Ukus prave tradicije u modernom ambijentu. Uživajte u vrhunskim tradicionalnim jelima i specijalitetima sa roštilja.">
+    
+    <!-- SEO & Open Graph -->
+    <meta property="og:title" content="Tradicija | Premium Restoran">
+    <meta property="og:description" content="Ukus prave tradicije u modernom ambijentu. Uživajte u vrhunskim tradicionalnim jelima.">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#0a0c10">
+    
+    <!-- Premium Fontovi -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- LOADING EKRAN -->
+    <div id="loader" class="loader-wrapper">
+        <div class="loader-content">
+            <div class="loader-glow"></div>
+            <img src="logo.png" alt="Tradicija Logo" class="loader-logo">
+            <h2 class="loader-text">RESTORAN</h2>
+            <h3 class="loader-subtext">TRADICIJA</h3>
+        </div>
+    </div>
+
+    <!-- Ambijentalni dekorativni sloj -->
+    <div class="ambient-light"></div>
+
+    <!-- NAVIGACIJA -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <!-- Uklonjen logo iz levog ugla -->
+            
+            <!-- Desktop Links -->
+            <div class="nav-links desktop-nav">
+                <a href="#pocetna" class="nav-link" data-sr="Početna" data-en="Home">Početna</a>
+                <a href="#meni-sekcija" class="nav-link" data-sr="Meni" data-en="Menu">Meni</a>
+                <a href="#nasa-atmosfera" class="nav-link" data-sr="Galerija" data-en="Gallery">Galerija</a>
+                <a href="#lokacija" class="nav-link" data-sr="Lokacija" data-en="Location">Lokacija</a>
+                <a href="tel:066308030" class="btn btn-outline nav-btn" data-sr="POZOVI" data-en="CALL">POZOVI</a>
+                <button id="lang-toggle" class="lang-btn" aria-label="Promeni jezik">ENG</button>
+            </div>
+
+            <!-- Hamburger Button -->
+            <button class="hamburger" id="hamburger" aria-label="Meni" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+
+        <!-- Mobile Overlay Menu -->
+        <div class="nav-overlay" id="nav-overlay">
+            <div class="mobile-nav-links">
+                <a href="#pocetna" class="mobile-nav-link" data-sr="Početna" data-en="Home">Početna</a>
+                <a href="#meni-sekcija" class="mobile-nav-link" data-sr="Meni" data-en="Menu">Meni</a>
+                <a href="#nasa-atmosfera" class="mobile-nav-link" data-sr="Galerija" data-en="Gallery">Galerija</a>
+                <a href="#lokacija" class="mobile-nav-link" data-sr="Lokacija" data-en="Location">Lokacija</a>
+                <a href="tel:066308030" class="btn btn-primary mobile-nav-btn" data-sr="POZOVI" data-en="CALL">POZOVI</a>
+                <button id="mobile-lang-toggle" class="lang-btn mobile-lang-btn">ENG</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- 1. HERO SEKCIJA -->
+        <header class="hero" id="pocetna">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="hero-logo-wrapper">
+                    <!-- Višeslojni zlatni glow -->
+                    <div class="logo-glow-layer-2"></div>
+                    <div class="logo-glow-layer-1"></div>
+                    <img src="logo.png" alt="Tradicija" class="hero-logo">
+                </div>
+                <h1 class="hero-title">TRADICIJA</h1>
+                <p class="hero-subtitle" data-sr="Ukus prave tradicije u modernom ambijentu" data-en="The taste of true tradition in a modern ambiance">Ukus prave tradicije u modernom ambijentu</p>
+                <div class="hero-buttons">
+                    <a href="#meni-sekcija" class="btn btn-primary" data-sr="POGLEDAJ MENI" data-en="VIEW MENU">POGLEDAJ MENI</a>
+                    <a href="#lokacija" class="btn btn-outline" data-sr="PRONAĐI NAS" data-en="FIND US">PRONAĐI NAS</a>
+                </div>
+            </div>
+        </header>
+
+        <div class="section-transition"></div>
+
+        <!-- 2. MENI SEKCIJA -->
+        <section class="menu-section" id="meni-sekcija">
+            <div class="container">
+                <h2 class="section-title reveal" data-sr="Naš Meni" data-en="Our Menu">Naš Meni</h2>
+                <div class="separator reveal"></div>
+                
+                <div class="menu-tabs-wrapper reveal stagger-1">
+                    <div class="menu-tabs" id="menu-tabs">
+                        <!-- Generiše JS -->
+                    </div>
+                </div>
+
+                <div class="menu-container" id="menu-container">
+                    <!-- Generiše JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. NAŠA ATMOSFERA (GALERIJA) -->
+        <section class="gallery-section" id="nasa-atmosfera">
+            <div class="container">
+                <h2 class="section-title reveal" data-sr="Naša Atmosfera" data-en="Our Atmosphere">Naša Atmosfera</h2>
+                <div class="separator reveal"></div>
+                <p class="gallery-desc reveal stagger-1" data-sr="Pogledajte delić atmosfere, hrane i trenutaka iz našeg restorana." data-en="Take a glimpse into the atmosphere, food, and moments from our restaurant.">Pogledajte delić atmosfere, hrane i trenutaka iz našeg restorana.</p>
+                
+                <!-- Editorial Photo Gallery -->
+                <div class="photo-gallery-grid" id="photo-gallery">
+                    <!-- Generiše JS (6 slika) -->
+                </div>
+
+                <!-- Video Gallery -->
+                <div class="video-gallery-grid reveal" id="video-gallery">
+                    <!-- Generiše JS (4 videa) -->
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. LOKACIJA I RADNO VREME -->
+        <section class="info-section location-section" id="lokacija">
+            <div class="container">
+                <div class="location-wrapper reveal">
+                    <div class="location-info premium-panel">
+                        <div class="panel-glow"></div>
+                        <h2 class="panel-title" data-sr="Lokacija" data-en="Location">Lokacija</h2>
+                        <div class="separator-left"></div>
+                        
+                        <div class="info-item">
+                            <span class="info-icon">📍</span>
+                            <div>
+                                <strong>Adresa</strong>
+                                <p>Srbija, Internacionalnih brigada BB, Kragujevac 34000 (Placeholder Adresa)</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">📞</span>
+                            <div>
+                                <strong>Telefon</strong>
+                                <p><a href="tel:066308030" style="color: var(--text-muted); text-decoration: none;">066 308 030</a></p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">📧</span>
+                            <div>
+                                <strong>Email</strong>
+                                <p><a href="mailto:info@tradicija.rs" style="color: var(--text-muted); text-decoration: none;">info@tradicija.rs</a></p>
+                            </div>
+                        </div>
+
+                        <a href="https://maps.app.goo.gl/1SeMh3Bt4NPaDkdj8" target="_blank" class="btn btn-outline mt-20" data-sr="POGLEDAJ NA MAPI" data-en="VIEW ON MAP">POGLEDAJ NA MAPI</a>
+                    </div>
+                    
+                    <div class="location-hours premium-panel delay-1">
+                        <div class="panel-glow"></div>
+                        <h2 class="panel-title" data-sr="Radno vreme" data-en="Working Hours">Radno vreme</h2>
+                        <div class="separator-left"></div>
+                        
+                        <div class="working-hours">
+                            <div class="day" data-day="1"><span data-sr="Ponedeljak" data-en="Monday">Ponedeljak</span> <span>08:00 - 00:00</span></div>
+                            <div class="day" data-day="2"><span data-sr="Utorak" data-en="Tuesday">Utorak</span> <span>08:00 - 00:00</span></div>
+                            <div class="day" data-day="3"><span data-sr="Sreda" data-en="Wednesday">Sreda</span> <span>08:00 - 00:00</span></div>
+                            <div class="day" data-day="4"><span data-sr="Četvrtak" data-en="Thursday">Četvrtak</span> <span>08:00 - 00:00</span></div>
+                            <div class="day" data-day="5"><span data-sr="Petak" data-en="Friday">Petak</span> <span>08:00 - 00:00</span></div>
+                            <div class="day" data-day="6"><span data-sr="Subota" data-en="Saturday">Subota</span> <span>08:00 - 00:00</span></div>
+                            <div class="day" data-day="0"><span data-sr="Nedelja" data-en="Sunday">Nedelja</span> <span>08:00 - 00:00</span></div>
+                        </div>
+                        <div class="status-badge-wrapper">
+                            <div class="status-badge" id="status-badge">Učitavanje...</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 5. FUTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col brand-col">
+                    <img src="logo.png" alt="Tradicija Logo" class="footer-logo">
+                    <h3 class="footer-brand-name">TRADICIJA</h3>
+                    <p data-sr="Gde se tradicija i kvalitet susreću. Vaše omiljeno mesto za prave kulinarske užitke." data-en="Where tradition meets quality. Your favorite place for true culinary delights.">Gde se tradicija i kvalitet susreću. Vaše omiljeno mesto za prave kulinarske užitke.</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 data-sr="Korisni Linkovi" data-en="Quick Links">Korisni Linkovi</h4>
+                    <a href="#meni-sekcija" data-sr="Naš Meni" data-en="Our Menu">Naš Meni</a><br>
+                    <a href="#nasa-atmosfera" data-sr="Galerija" data-en="Gallery">Galerija</a><br>
+                    <a href="#lokacija" data-sr="Radno Vreme" data-en="Working Hours">Radno Vreme</a>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 data-sr="Kontakt" data-en="Contact">Kontakt</h4>
+                    <address>
+                        <p>Srbija, Internacionalnih brigada BB, Kragujevac 34000</p>
+                        <a href="tel:066308030">066 308 030</a><br>
+                        <a href="mailto:info@tradicija.rs">info@tradicija.rs</a><br><br>
+                        <a href="https://maps.app.goo.gl/1SeMh3Bt4NPaDkdj8" target="_blank" class="footer-map-link" data-sr="Prikaži na Mapi" data-en="Show on Map">Prikaži na Mapi</a>
+                    </address>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Restoran Tradicija. <span data-sr="Sva prava zadržana." data-en="All rights reserved.">Sva prava zadržana.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODALI ZA GALERIJU -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close">&times;</button>
+        <button class="lightbox-nav lightbox-prev">&#10094;</button>
+        <img src="" alt="Gallery Image" class="lightbox-img" id="lightbox-img">
+        <button class="lightbox-nav lightbox-next">&#10095;</button>
+    </div>
+
+    <div class="video-modal" id="video-modal">
+        <button class="video-modal-close" id="video-close">&times;</button>
+        <div class="video-modal-content">
+            <video id="modal-video" controls playsinline></video>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
